@@ -990,9 +990,9 @@ proxies:
     mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
+      jc: 8
+      jmin: 10
+      jmax: 999
       s1: 0
       s2: 0
       h1: 1
@@ -1005,7 +1005,7 @@ proxy-groups:
     type: select
     proxies:
       - "🚀 انتخاب خودکار (بهترین)"
-      - "ba Bosnia-WG"
+      - "🇧🇦 Bosnia-WG"
       - "🇮🇳 India-WG"
       - "🇦🇹 Austria-WG (Vienna)"
       - "🇹🇭 Thailand-WG"
@@ -1046,9 +1046,9 @@ proxy-groups:
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: 600
-    tolerance: 50
+    tolerance: 100
     proxies:
-      - "ba Bosnia-WG"
+      - "🇧🇦 Bosnia-WG"
       - "🇮🇳 India-WG"
       - "🇦🇹 Austria-WG (Vienna)"
       - "🇹🇭 Thailand-WG"
