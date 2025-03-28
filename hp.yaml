@@ -45,7 +45,7 @@ dns:
     - '9.9.9.9'
     - '2620:fe::fe'
 tun:
-  enable: false
+  enable: true
   stack: mixed
   auto-route: true
   strict-route: true
