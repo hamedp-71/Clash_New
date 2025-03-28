@@ -45,7 +45,7 @@ dns:
     - '9.9.9.9'
     - '2620:fe::fe'
 tun:
-  enable: true
+  enable: false
   stack: mixed
   auto-route: true
   strict-route: true
@@ -75,7 +75,7 @@ proxies:
     port: 443
     public-key: "tJa6iPx6mpOktn5KoalMslWcpg6pRUdVx3bKDi3wtDg="
     preshared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    dns: ["10.255.255.2"]
+    dns: []
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
