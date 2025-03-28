@@ -63,10 +63,10 @@ sniffer:
 
 proxies:
   # Previous proxies remain unchanged
-  - name: "ba Bosnia-WG"
+  - name: "🇧🇦 Bosnia-WG"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: ""
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "185.99.3.25"
     port: 443
