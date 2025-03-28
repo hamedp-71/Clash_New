@@ -27,9 +27,9 @@ dns:
   use-hosts: true
   use-system-hosts: false
   nameserver:
-    - '8.8.4.4'
+    - '1.1.1.1'
   proxy-server-nameserver:
-    - '8.8.4.4'
+    - '8.8.8.8'
 tun:
   enable: true
   stack: mixed
@@ -60,6 +60,8 @@ proxies:
     server: "185.99.3.25"
     port: 443
     public-key: "6oMHpHHL3pq6Pdr2HoDRYuyjcyQGxfQaSRQR+HPyvgc="
+    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+    dns: ["10.255.255.2", "1.1.1.1"]
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
@@ -68,7 +70,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 200
+      jmax: 70
       s1: 0
       s2: 0
       h1: 1
