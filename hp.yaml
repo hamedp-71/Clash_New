@@ -52,7 +52,7 @@ sniffer:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 
 proxies:
-  - name: "🇸🇬 hamedp71"
+  - name: "ba Bosnia-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: ""
@@ -77,13 +77,94 @@ proxies:
       h2: 2
       h3: 3
       h4: 4
+      
+- name: "🇮🇳 India-WG"
+  type: wireguard
+  ip: "100.80.234.177/32"
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: "103.77.232.76"  # هندوستان
+  port: 443
+  public-key: "eSxX+L8qX+1MdmwjtlZGIDbDivFdURBh5Rm1KfUpYzc="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  dns: ["10.255.255.2"]
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
 
+- name: "🇦🇹 Austria-WG (Vienna)"
+  type: wireguard
+  ip: "10.14.0.2/16"
+  ipv6: ""
+  private-key: "GIjVdcCkTYex0jB/q7slTpYkzlvhXCABCa6MRTBXnlE="
+  server: "at-vie.prod.surfshark.com"  # اتریش (وین)
+  port: 51820
+  public-key: "dPZe8Jq3Hu0k07MDk+Y4+AS2XHSLYalyg91TSFXRYEA="
+  pre-shared-key: ""  # (PSK وجود ندارد)
+  dns: ["162.252.172.57", "149.154.159.92"]
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+
+- name: "🇹🇭 Thailand-WG"
+  type: wireguard
+  ip: "100.80.234.177/32"
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: "165.73.248.92"  # تایلند
+  port: 443
+  public-key: "stPvzj5yM1z5Qg9H3gMvAKNPJLU0X3SeUSJPg3wqDR8="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  dns: ["10.255.255.2"]
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+    
 proxy-groups:
   - name: "🌐 گلوبال"
     type: select
     proxies:
       - "🚀 انتخاب خودکار (بهترین)"
-      - "🇸🇬 hamedp71"
+      - "ba Bosnia-WG"
+      - "🇮🇳 India-WG"
+      - "🇦🇹 Austria-WG (Vienna)"
+      - "🇹🇭 Thailand-WG"
 
   - name: "🚀 انتخاب خودکار (بهترین)"
     type: url-test
@@ -91,7 +172,10 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - "🇸🇬 hamedp71"
+      - "ba Bosnia-WG"
+      - "🇮🇳 India-WG"
+      - "🇦🇹 Austria-WG (Vienna)"
+      - "🇹🇭 Thailand-WG"
 
 rule-providers:
   ir:
