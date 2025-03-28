@@ -60,7 +60,6 @@ proxies:
     server: "185.99.3.25"
     port: 443
     public-key: "6oMHpHHL3pq6Pdr2HoDRYuyjcyQGxfQaSRQR+HPyvgc="
-    preshared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
