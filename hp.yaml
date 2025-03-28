@@ -92,7 +92,7 @@ proxies:
   - name: "🇮🇳 India-WG"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: ""
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "103.77.232.76"
     port: 443
@@ -118,7 +118,7 @@ proxies:
   - name: "🇦🇹 Austria-WG (Vienna)"
     type: wireguard
     ip: "10.14.0.2/16"
-    ipv6: ""
+    ipv6: "2001:db8:1::1/128"
     private-key: "GIjVdcCkTYex0jB/q7slTpYkzlvhXCABCa6MRTBXnlE="
     server: "at-vie.prod.surfshark.com"
     port: 51820
@@ -144,7 +144,7 @@ proxies:
   - name: "🇹🇭 Thailand-WG"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: ""
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "165.73.248.92"
     port: 443
@@ -171,7 +171,7 @@ proxies:
   - name: "🇺🇸 US-WG (New York)"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: ""
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "104.129.3.68"
     port: 443
@@ -184,9 +184,9 @@ proxies:
     mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
+      jc: 8
+      jmin: 10
+      jmax: 999
       s1: 0
       s2: 0
       h1: 1
@@ -197,7 +197,7 @@ proxies:
   - name: "🇩🇪 Germany-WG"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: ""
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "46.199.75.107"
     port: 443
@@ -210,9 +210,9 @@ proxies:
     mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
+      jc: 8
+      jmin: 10
+      jmax: 999
       s1: 0
       s2: 0
       h1: 1
