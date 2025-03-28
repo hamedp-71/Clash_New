@@ -33,8 +33,6 @@ dns:
     - '2001:4860:4860::8844'
     - '1.1.1.1'
     - '2606:4700:4700::1111'
-    - '9.9.9.9'
-    - '2620:fe::fe'
   proxy-server-nameserver:
     - '8.8.8.8'
     - '2001:4860:4860::8888'
@@ -42,8 +40,6 @@ dns:
     - '2001:4860:4860::8844'
     - '1.1.1.1'
     - '2606:4700:4700::1111'
-    - '9.9.9.9'
-    - '2620:fe::fe'
 tun:
   enable: true
   stack: mixed
@@ -83,9 +79,9 @@ proxies:
     mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
+      jc: 8
+      jmin: 10
+      jmax: 999
       s1: 0
       s2: 0
       h1: 1
@@ -109,9 +105,9 @@ proxies:
     mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
+      jc: 8
+      jmin: 10
+      jmax: 999
       s1: 0
       s2: 0
       h1: 1
@@ -135,9 +131,9 @@ proxies:
     mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
+      jc: 8
+      jmin: 10
+      jmax: 999
       s1: 0
       s2: 0
       h1: 1
@@ -161,9 +157,9 @@ proxies:
     mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
+      jc: 8
+      jmin: 10
+      jmax: 999
       s1: 0
       s2: 0
       h1: 1
