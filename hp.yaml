@@ -27,6 +27,7 @@ dns:
   use-hosts: true
   use-system-hosts: false
   nameserver:
+    - '10.255.255.2'  
     - '8.8.8.8'
     - '2001:4860:4860::8888'
     - '8.8.4.4'
@@ -36,6 +37,7 @@ dns:
     - '9.9.9.9'
     - '2620:fe::fe'
   proxy-server-nameserver:
+    - '10.255.255.2'
     - '8.8.8.8'
     - '2001:4860:4860::8888'
     - '8.8.4.4'
@@ -81,21 +83,15 @@ proxies:
     mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 0
-      jmin: 0
-      jmax: 0
+      jc: 4
+      jmin: 40
+      jmax: 200
       s1: 0
       s2: 0
-      h1: 0
-      h2: 0
-      h3: 0
-      h4: 0
-
-    w-noise: true
-    w-noise-payload-size: "5-10"
-    w-noise-delay: "1-2"
-    w-noise-count: 15
-    keepalive: 5
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
 
 proxy-groups:
   - name: "🌐 گلوبال"
