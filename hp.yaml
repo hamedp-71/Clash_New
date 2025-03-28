@@ -76,7 +76,7 @@ proxies:
     public-key: "tJa6iPx6mpOktn5KoalMslWcpg6pRUdVx3bKDi3wtDg="
     preshared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
     allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "MCwwLDA="
+    reserved: "AAAA"
     udp: true
     mtu: 1280
     dialer-proxy: ""
