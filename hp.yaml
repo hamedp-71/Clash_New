@@ -27,9 +27,9 @@ dns:
   use-hosts: true
   use-system-hosts: false
   nameserver:
-    - '8.8.8.8'
+    - '10.255.255.2'
   proxy-server-nameserver:
-    - '8.8.8.8'
+    - '10.255.255.2'
 tun:
   enable: true
   stack: mixed
