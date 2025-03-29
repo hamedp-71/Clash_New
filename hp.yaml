@@ -72,7 +72,7 @@ proxies:
     port: 443
     public-key: "6oMHpHHL3pq6Pdr2HoDRYuyjcyQGxfQaSRQR+HPyvgc="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    dns: ["10.255.255.2"]
+    dns: ["10.255.255.2", "1.1.1.1"]
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
