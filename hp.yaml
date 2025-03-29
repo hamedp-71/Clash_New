@@ -79,9 +79,9 @@ proxies:
     mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 8
-      jmin: 10
-      jmax: 999
+      jc: 4
+      jmin: 40
+      jmax: 70
       s1: 0
       s2: 0
       h1: 1
@@ -105,9 +105,9 @@ proxies:
     mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 8
-      jmin: 10
-      jmax: 999
+      jc: 4
+      jmin: 40
+      jmax: 70
       s1: 0
       s2: 0
       h1: 1
@@ -131,9 +131,9 @@ proxies:
     mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 8
-      jmin: 10
-      jmax: 999
+      jc: 4
+      jmin: 40
+      jmax: 70
       s1: 0
       s2: 0
       h1: 1
@@ -157,9 +157,9 @@ proxies:
     mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 8
-      jmin: 10
-      jmax: 999
+      jc: 4
+      jmin: 40
+      jmax: 70
       s1: 0
       s2: 0
       h1: 1
@@ -184,9 +184,9 @@ proxies:
     mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 8
-      jmin: 10
-      jmax: 999
+      jc: 4
+      jmin: 40
+      jmax: 70
       s1: 0
       s2: 0
       h1: 1
@@ -210,9 +210,9 @@ proxies:
     mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 8
-      jmin: 10
-      jmax: 999
+      jc: 4
+      jmin: 40
+      jmax: 70
       s1: 0
       s2: 0
       h1: 1
@@ -990,9 +990,9 @@ proxies:
     mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 8
-      jmin: 10
-      jmax: 999
+      jc: 4
+      jmin: 40
+      jmax: 70
       s1: 0
       s2: 0
       h1: 1
