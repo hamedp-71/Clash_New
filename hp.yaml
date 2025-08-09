@@ -257,7 +257,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇳🇱 Netherlands-WG"
+  - name: "mk hamedp71-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: ""
