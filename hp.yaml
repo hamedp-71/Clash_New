@@ -76,7 +76,7 @@ sniffer:
 
 proxies:
   # Previous proxies remain unchanged
-  - name: "🇧🇦 Bosnia-WG"
+  - name: "🇧🇦 hamedp71-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -102,7 +102,7 @@ proxies:
       h3: 3
       h4: 4
       
-  - name: "🇮🇳 India-WG"
+  - name: "au hamedp71-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -207,7 +207,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇩🇪 Germany-WG"
+  - name: "cy hamedp71-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -285,7 +285,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇸🇪 Sweden-WG"
+  - name: "au hamedp71-WG-1"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: ""
@@ -1018,15 +1018,15 @@ proxy-groups:
     type: select
     proxies:
       - "🚀 انتخاب خودکار (بهترین)"
-      - "🇧🇦 Bosnia-WG"
-      - "🇮🇳 India-WG"
+      - "🇧🇦 hamedp71-WG"
+      - "au hamedp71-WG"
       - "🇦🇹 Austria-WG (Vienna)"
-      - "🇹🇭 Thailand-WG"
+      - "za hamedp71-WG"
       - "🇺🇸 US-WG (New York)"
-      - "🇩🇪 Germany-WG"
+      - "cy hamedp71-WG"
       - "🇷🇸 Serbia-WG"
-      - "🇳🇱 Netherlands-WG"
-      - "🇸🇪 Sweden-WG"
+      - "mk hamedp71-WG"
+      - "au hamedp71-WG-1"
       - "🇺🇸 US-WG (Ohio)"
       - "🇧🇷 Brazil-WG"
       - "🇷🇺 Russia-WG"
@@ -1061,15 +1061,15 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "🇧🇦 Bosnia-WG"
-      - "🇮🇳 India-WG"
+      - "🇧🇦 hamedp71-WG"
+      - "au hamedp71-WG"
       - "🇦🇹 Austria-WG (Vienna)"
-      - "🇹🇭 Thailand-WG"
+      - "za hamedp71-WG"
       - "🇺🇸 US-WG (New York)"
-      - "🇩🇪 Germany-WG"
+      - "cy hamedp71-WG"
       - "🇷🇸 Serbia-WG"
-      - "🇳🇱 Netherlands-WG"
-      - "🇸🇪 Sweden-WG"
+      - "mk hamedp71-WG"
+      - "au hamedp71-WG-1"
       - "🇺🇸 US-WG (Ohio)"
       - "🇧🇷 Brazil-WG"
       - "🇷🇺 Russia-WG"
